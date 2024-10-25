@@ -31,7 +31,7 @@ document.getElementById('form-funcionario').addEventListener('submit', function(
     funcionarios.push(funcionario);
     localStorage.setItem('funcionarios', JSON.stringify(funcionarios));  // salva no localStorage
     atualizarListaDeFuncionarios();
-    alert('Funcionário cadastrado com sucesso!');
+    alert('Funcionário registrado com sucesso!');
     document.getElementById('form-funcionario').reset();
 });
 
@@ -70,7 +70,7 @@ document.getElementById('form-pedido').addEventListener('submit', function(event
     pedidos.push(pedido);
     localStorage.setItem('pedidos', JSON.stringify(pedidos));  // salva no localStorage
     atualizarListaDePedidos();
-    alert('Pedido cadastrado com sucesso!');
+    alert('Pedido registrado com sucesso!');
     document.getElementById('form-pedido').reset();
 });
 
